@@ -1,0 +1,160 @@
+/* Global styles */
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Arial', sans-serif;
+   background-color: rgba(136, 173, 146, 0.8);
+   /* background-image: url('../pics/bg3.jpg'); */
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: #333;
+   transition: background-color 0.3s ease;
+}
+
+/* Header styles */
+header {
+   text-align: center;
+   padding: 20px 0;
+}
+
+header h1 {
+   margin: 0;
+   font-size: 24px;
+   color: #fff;
+}
+
+/* Main content styles */
+main {
+   padding: 20px;
+}
+
+/* Section styles */
+section {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+
+section h2 {
+   color: #007bff;
+}
+
+/* Image container styles */
+.image-container {
+   max-width: 50%;
+   height: 600px;
+   margin: 0 auto;
+   border-radius: 50%;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Project card styles */
+.project-card {
+   border: 1px solid #ddd;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+   transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+   color: #333;
+}
+
+.project-card p {
+   font-size: 16px;
+   line-height: 1.6;
+   color: #555;
+}
+
+.project-card a {
+   display: inline-block;
+   background-color: #007bff;
+   color: #fff;
+   padding: 8px 12px;
+   margin-top: 10px;
+   border-radius: 4px;
+   text-decoration: none;
+   transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+   background-color: #0056b3;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+   background-color: #222;
+   color: #fff;
+}
+
+.dark-mode section {
+   background-color: #333;
+   color: #eee;
+}
+
+.dark-mode section h2 {
+   color: #007bff;
+}
+
+.dark-mode section p {
+   color: #eee;
+}
+
+/* Contact form styles */
+form {
+   max-width: 400px;
+   margin-top: 20px;
+}
+
+form label,
+form input,
+form textarea {
+   display: block;
+   margin-bottom: 10px;
+}
+
+form textarea {
+   resize: vertical;
+}
+
+form button {
+   background-color: #007bff;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+form button:hover {
+   background-color: #0056b3;
+}
+
+
+.footer {
+   align-content: center;
+}
+
+#toggle-theme {
+   background-color: #007bff;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+#toggle-theme:hover {
+   background-color: #0056b3;
+}

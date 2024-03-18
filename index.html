@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vechy-Portfolio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vechy Graphix Portfolio</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Vera, a passionate and creative Web Developer. I love turning ideas into interactive and user-friendly websites. With a strong foundation in HTML5, CSS3, JavaScript, React JS, and Python, I enjoy the process of bringing designs to life. I'm constantly exploring new technologies to stay up to date in the ever-evolving world of web development. I'm also a skilled Graphic Designer, creating a variety of beautiful arts for numerous clients.</p>
+            <div class="image-container">    
+                <img src="./pics/vee.jpg" alt="Vera">
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React JS</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Graphic Design</li>
+                <li>Digital Marketing</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <!-- Project Cards -->
+            <div class="project-card">
+                <h3>Project 1: Taste Haven Restaurant Website</h3>
+                <p>Taste Haven Restaurant Website is a vibrant online platform designed to captivate and engage patrons seeking a culinary adventure. With its dynamic features and modern design, this website offers a tantalizing glimpse into the world of Taste Haven.</p>
+                <a href="https://taste-haven-vera.vercel.app/" target="_blank">View Project</a>
+            </div>        
+
+            <div class="project-card">
+                <h3>Project 2: Vechy Graphix Website</h3>
+                <p>Vechy Graphix Portfolio Website is a dynamic online showcase, offering a glimpse into the creative world of Vechy Graphix. With its sleek design and engaging content, this website serves as a gateway to explore the diverse range of graphic design projects and services offered by Vechy Graphix.</p>
+                <a href="https://vechygraphix.vercel.app" target="_blank">View Project</a>
+            </div>        
+
+            <div class="project-card">
+                <h3>Project 3: Crystal Shipment Logistics Website</h3>
+                <p>This project unveils the Crystal Shipment Tracking Application, a dynamic web-based solution tailored for logistics companies seeking to optimize their shipment tracking processes. Harnessing the power of modern web technologies, including React JS, Bootstrap, and CSS, this application delivers real-time visibility into the status and location of shipments, revolutionizing the logistics management landscape.</p>
+                <a href="https://crystal-shipment-vera.vercel.app/" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out! You can contact me via email or connect with me on social media:</p>
+
+            <!-- Contact Information -->
+            <ul>
+                <li><strong>Email:</strong> vechygraphix@gmail.com</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/VeraVechy" target="_blank">GitHub Profile</a></li>
+                <li><strong>Twitter:</strong> <a href="https://twitter.com/GraphixVec72342" target="_blank">Twitter Profile</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vechy-ezejioha-4037ab140" target="_blank">LinkedIn Profile</a></li>
+                <li><strong>Instagram:</strong> <a href="https://instagram.com/vechygraphix?igshid=ZGUzMzM3NWJiOQ==" target="_blank">Instagram Profile</a></li>
+            </ul>
+
+            <!-- Contact Form -->
+            <form action="https:vechygraphix@gmail.com" method="POST" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Vechy Graphix. All Rights Reserved.</p>
+        <button id="toggle-theme">Toggle Theme</button>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
